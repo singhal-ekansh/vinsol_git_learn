@@ -1,3 +1,4 @@
 first changes made
 change from feature 1 branch
 change from feature 2 branch
+new changes from master
