@@ -1,3 +1,7 @@
 changes made
 45 mins left
+<<<<<<< Updated upstream
 text after stashing
+=======
+changes that are going to be stashed
+>>>>>>> Stashed changes
