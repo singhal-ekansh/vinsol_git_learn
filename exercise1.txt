@@ -1,0 +1,63 @@
+1. git init
+2. git add .
+3. git commit -m "message"
+
+4. (added a file .gitignore
+   added exercise1.txt file name in gitignore)
+
+   git diff --cached
+
+5. git checkout <filename>
+   or 
+   git reset --hard
+
+6. git restore --staged .
+
+7. git revert <commit hash>    
+
+8. git status
+
+9. git log --oneline
+
+10. git show <commit hash>
+
+11. git branch feature1
+    git branch feature2
+    git branch -d feature2
+
+12. git checkout feature1
+    git add .
+    git commit -m "commit from feature1 branch"
+
+13. git checkout master
+    git add .
+    git commit -m "commit from master branch"
+
+14. git merge feature1
+
+15. git branch feature2
+    git add .
+    git commit 
+
+16. git checkout master
+    git add .
+    git commit
+
+17. git checkout feature2
+    git rebase master   (this create conflicts which had to be resoved)
+    
+18. In merge we were creating another commit which had latest from both branches after removing conflicts.
+    But in rebase we merge the two branches without creating new merge commit hence a clean history but loose actual history.
+
+19.git stash
+   git stash apply
+
+20. git remote add origin <link>
+    git push origin master
+    
+    git switch feature1
+    git push origin feature1
+
+    git switch feature2
+    git push origin feature2 
+ 
