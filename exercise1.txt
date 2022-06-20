@@ -12,8 +12,9 @@
    git reset --hard
 
 6. git restore --staged .
+   git checkout .
 
-7. git revert <commit hash>    
+7. git revert HEAD    
 
 8. git status
 
@@ -34,6 +35,9 @@
     git commit -m "commit from master branch"
 
 14. git merge feature1
+    resolve conflicts 
+    git add .
+    git commit -m "resolved conflicts"
 
 15. git branch feature2
     git add .
